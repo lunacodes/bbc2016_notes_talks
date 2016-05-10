@@ -1,0 +1,89 @@
+Kosamari - Ink Painting with Computers
+
+Organizer of brooklyn JS
+Does Printing Coding for TV Industry
+
+Interested in Punch Cards, Mechanical COmputeing
+Interested in Typesetting
+    Thought of Hip Print Shop where you order wedding invitation
+    Gutenberg Bible - types were handpicked,one at a time
+
+    Now we do this visually at the click of a button
+
+Machines + Computer influencing our work flow
+    Linotype - Invented by German Typesetter in 1886
+    Machine + Magazine + Mold for type.
+        Gets sent into molding section
+        Gets heated into line of type
+        Mold gets redistributed into the Magazine
+            D Distribution - Redistributes each Metal Mold
+
+        Revolutionary Invention!!
+            NYT used this until 7/1/1978 to typeset their newspaper
+
+
+This was replaced by Computer Typography - The Newww Technology
+    COmputer + memory + Punchcard Tape would output to Typesetter
+        WYSWIG Typesetter of the 1970s
+        Phototype setting
+            Film with typeface on it
+            Lens so that it could enlarge
+            Output Letters, Create Photo Paper and Outputs it
+            Cut & Paste Literally
+            Create a Page
+Typesetting Documents
+    Similar to opening website and seeing each DOM element
+
+    Typeset with UNIX bought by Bell Labs
+        Computer Assisted (Pototype) TypeSetter
+
+        You could fit this on a computer like PDP-11 (This is the computer that got in b/c Ken Thompson wanted to play a Video Game)
+
+
+    Document Formatting & Typesetting on the UNIX System
+        Bell Labs Book
+
+    Bell Labs' main purpose was printing and research paper
+        Printing via computer was novel
+        You'd have to send to typesetter for $ per page
+
+    Word Processing was the exciting thing to explore
+    runoff - for Multics Jerry Saltzer
+    roff Unix
+    troff - Typesetter (Joe Ossanna Brian Kerrighan)
+
+    Domain-Specific Preprocessor for Typesetting
+        tbl - tables
+        eqn - math equations
+
+    Bring Kernighan - known for awk
+        Main person workin on Computer Typesetting in Bell Labs
+
+        Phototypesetter used from 72-78
+
+        Led Team to find new typesetting technology
+            Linotron 202 Series
+                Cathode Ray Tube
+                    Replace Film 
+                    Directly draw things onto a CRT monitor instead of transferring to paper
+                Was completely unusable (Brian K)
+                    Prints beautifully, but software was shit
+
+        Ken and other guy had just wrapped up a project for the Bell Chess Machine
+            Publisihing a book with proper chess font (emoji)
+                Also hardware people
+                The 3 of them teamed up to figure out this problem via reverse engineering
+
+            Experience with the Mogenthatler Linotron 202 Typesetter
+                Or - How we spent our summer vacation
+
+        Phototype - largest point was 72pt
+            Doesn't make sense on Website Design
+                Old Fonts
+                    Times New Roman
+                    Helvetica
+                    Survived several generations
+                    They have a culture and history
+
+
+

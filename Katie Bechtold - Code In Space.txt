@@ -1,0 +1,93 @@
+Code In Space
+Katie Bechtold
+
+
+Develops software that has literally runs and goes to other planets on spacecrafts
+
+
+Spacecraft == Network of Embedded Computers
+
+Command + Data Handling
+Scientific Instruments (usually Many computer, developed independent of spacecraft)
+Guidance & Control 
+Fault Pricision
+Power Distribution
+
+
+Space is BIG -> Spacecraft go far away -> Access to Hardware is remote with significant lag ->
+
+Eart to Moon -> 1.5s each way
+Mars -> 4-24 min
+New Horizons (by Pluto) -> 5 Hours
+Voyager -> 18.5 or 15.5 respective to each spacecraft
+
+
+Spacecraft needs to be able to operate and recover from faults independently
+
+Earth is a gravity well
+    Space is expensive to get to (In terms of Kinetic Energy; and Money)
+        $10,000 - $25,000 just to get to Earth Orbit
+
+        Full Costs -> Multimillions/Billions
+        People who run and pay for them are Risk Averse
+        SpaceCraft *must* be reliable
+
+Realtime Operating Systems
+QNX, VXworks,  Nucleus, RTems, Linux
+    Predicitability over Speed
+        Guaranteed Reaction over Time
+
+    Firing Thrusters, Scientific Instruments, Avoid a Hazard (Sunshield near the Sun)
+
+
+Determinism
+    Avoiding Dynamic Memory Allocation after Initialization
+        DMA can lead to slow and possible indeterminate access times
+        memory leaks, HEAP fragmentation
+
+    Avoid Recursion
+        Loops must have a statically determinable upper bound on number of iterations
+        Don't use any recursion
+
+        Google Standards On This **Find Link**
+
+    Deterministic Languages: C, Ada, Forth
+
+    Data Buses must be deterministic
+        Early Ethernet was subject to collisions
+        You'd back off collisions with random back-off 
+            Random is Anathema
+
+        Our systems -> Every timing is Completely Determined
+
+        Newer Standards are coming out more akin to modern Ethernet and Networks
+            Full Duplex
+            Packet Switching
+
+
+Hardware 
+    Not a lot of power to work with
+    Solar Power Bad
+    Plutoning-238 is in shortage
+
+    Plutonium introduces Radiation
+        You need Radiation-Hardenes Hardware
+        Limited Market for this, so product is expensive
+
+    Physical Design
+    Error Correcting 
+    Memory Redundant Elements
+    Voting Logic   
+    etc
+
+
+    Older Hardware:
+        9,000 instructions per second
+        .008 MIPS
+        Digital Tape Recorder
+        Programmed in Assemvbly
+
+        Even more modern hardware is nothing compared to a computer or phone
+
+
+        

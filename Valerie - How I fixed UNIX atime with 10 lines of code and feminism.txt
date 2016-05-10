@@ -1,0 +1,91 @@
+Valerie - How I fixed UNIX atime with 10 lines of code and feminism
+@frameshiftllc
+
+ 40 yr. old filesystem
+
+Picture of me driving a tractor in 2006 while I was working on this code
+
+Done file systems
+Do Diversity and Inclusion
+
+
+Every UNIX file has 3 timestamps:
+    atime - access time
+    mtime - modified time (last time written)
+    ctime - Change Time (last time file was modified)
+
+    Thanks NSA for showing us what metadata is
+
+    Mail Reader
+        atime >= mtime = no mail
+        atime < mtime = new mail
+
+    Memory = 100 nanoseconds - Corner Store
+    SSD - EMpire Staate BUilding/DC
+    Disk - Washington DC
+
+    Reads can often be cached in Memory
+    Writes have to go to SSD or Disk eventually
+
+    1st Rule of Filesystem Club: Avoid Writes
+
+UNIX atime:
+    turns every read into a Write
+        terrible waste of time
+
+    "Atime updates are by far the biggest IO performancy defiency that Linux has today.  Getting rid of atime updates would give us more everyday..."
+        ***Quotes***
+
+    Non-Feminist Solution:
+        No One Gets atime!!
+        This would break a lot of stuff
+        Power users would turn it off, but everyone else was screwed
+
+        It would break that mail time update
+
+        Whenever you'd complain about this, a bunch of sneering filesystem programmers would sneer at you about how you needed to not use atime
+            lol - We could also rewrite our programs to not write filesystems *rolls eyes*
+
+        Keep big list of everything in memory.  Lets wait till we're running out of memory and then write
+            Missed the Forest
+                What Users wanted vs. File System, Data Strucutres & Code
+
+
+    Feminist Solution (after 37 yrs):
+        Linux Chicks - a place I had Psychological Safety
+            Be Polite
+            Be Helpful
+
+        I listened to people
+            Friends laptop was slow
+            she turned off atime
+            Mail app didn't work
+
+            What did she really want to know
+                Not the exact second?
+                She just needed the relative time difference (before/after)
+
+        Relative atime:
+            Current atime <|> current mtime
+
+            10 lines of code in Kernel
+                So simple I refuse to patent it
+
+                Some extra code to create mount compatability options
+                    Update atime if > 1 day (so OS time-deletes files when necessary)
+
+
+
+    Becoming a better feminist helped me become a better systems developer b/c I was more holistically focused
+
+    I teach Ally Skills workshop
+        Safer Spaces
+        How to Listen
+        How to center the person
+        More stuff
+
+        Transforms people
+
+
+Writing a book on Ally Skills
+

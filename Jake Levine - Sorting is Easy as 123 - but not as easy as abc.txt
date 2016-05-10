@@ -1,0 +1,59 @@
+Jake Levine - Sorting is Easy as 1-2-3, but not as easy as a-b-c!
+Engineering Manager @ Meetup
+
+Meetup added Support for Japanese last year:
+    Flow:
+        Present you with categories you might be interested in 
+        Sorted in ABC order (easier to scan)
+        We translated this into Japanese
+            We got it wrong.  Japanese testers pointed this out
+
+    Java sorting issue:
+        Natural Sort on Arrays is easy
+        Natural Sort for English Strings is easy
+            Capital Letter strings end up in the wrong place for English Speakers
+                Uppercase chars have different value than lower chars, and so they sort them differently
+
+        Collator Class:
+            Language Sensitive Sorting in Java
+
+            usCollator = Collator.getInstance(new Locale("en", "US"))
+                Sorts properly
+
+            jaCollator = Collator.getInstance(new Locale("jp", "US"))
+                This changes ordering, but still wasn't right
+
+
+        Japanese Alphabets:
+            Kanji - Symbols shared with chinese.  Each symbol represents concept.
+            Hiragana, katakana, Romaji - Phonetic
+
+            Ordering:
+                50 Sounds Ordering
+                    Gojuon (Hiragana) ordering
+                    Can be used for Kanji
+                        But Kanji symbols have context-dependent sound
+
+                Currently No Reliable way for computers to sort this
+
+
+        English:
+            I'd like to READ vs. Have you READ
+                Doesn't matter in English, but is relevant in Japanese
+
+
+        Solution:
+            De-coupled Language from display sorting
+                Sorted into Alphabet
+                24 Categories...
+
+                ***Missed the Rest of the Explanation***
+
+            This doesn't scale well.  We still need a human to translate every word.  Thousands-Million Words - impossible
+
+            Maybe we could provide non-alphabetical spelling
+
+            Amazon asks people to provide phoenetic versions of their name
+
+Don't hinge your product design on length
+If Global, don't make assumptions

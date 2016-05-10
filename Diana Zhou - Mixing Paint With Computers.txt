@@ -1,0 +1,62 @@
+Diana Zhou - Mixing Paint With Computers
+
+
+3 Primary Colors Model
+
+Not how colors are represented in Computer
+
+RGB Representation
+    This is how monitors work (pixels are red, green and blue light)
+    Higher Numeric Value == Closer to White
+
+
+    Red + Green = Yellow
+    Red + Blue = Magenta
+    Green + Blue = Cyan
+
+Gradients Formula = (x -amount of color 1) * (1.0-x - amount of color)
+
+All colors reflect and absorb different wavelengths of light
+Visible Light Spectrum
+Shorter -> Violet
+Longer -> Red
+
+Most objects don't reflect a pure wavelength
+    Objects reflect primarily in one wavelength, but then parts of the other
+
+    Resulting Color is the color reflected by both of the Color Points
+
+    Subtractive Color = The more colors you mix together, the less light it can affect at all
+
+CMYK - Represents Subtractive Coloring
+    Not necessarily intuitive
+    Primarily useful for Printing
+
+
+How do we get Color Mixing that accuratelyr represents something that would show up in space
+    Other Colors Spaces?
+        You'd need to convert them to RGB though
+
+
+    Physics
+        Kebelka-Munk Theory (Not google friendly or well-explained)
+        Returns the reflectance of light for a layer of pigment on a reflective surface
+
+        Assumes Surface is solid enough that light will not pass through it
+
+
+    Used in Actual Apps
+        Krita implemented this until 2012, but it stopped being maintained
+
+        Really hard to implement
+            How much light is reflected, absorbed, etc
+
+
+        Paper (iPad App)
+            Implemented KM Theory  
+                Was too realistic (paints don't always mix the way you'd expect)
+
+    Sometimes you just need to choose what looks best
+
+    Computer Representation of Colors doesn't tell you relationships btwn. colors
+        This is not ideal for this purpose

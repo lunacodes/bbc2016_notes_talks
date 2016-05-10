@@ -1,0 +1,60 @@
+Adam Marcus - A Few Sketches of Sketches
+B12
+@Marcus
+
+Sketing Data Structures...
+    Little less than Perfect that takes up less space
+
+    You've probably worked with a Sketch at some point
+
+    You might have specific Questions about a particular data set
+        You can't answer these completely correctly without complete data set
+
+    Bloom Filter
+        Used in Google's Chrome
+            Browser tool that figures out if a URL is Bad
+            Google Has a Huge Database
+                Too large to package with browsers
+                So Google has compiled these into a Bloom Filter
+
+            Bit Set + 3 Hash Functions (With Keys)
+
+            Hash BadURL.com against the 3 bits to bitset, set those bits to 1
+            Repeat AnotherBadURL.com - anything flipped to one stays one
+
+            If GoodURL.com - one Hash is flipped at 0, so we know it's NOT bad
+
+            NiceURL overlaps with Hashed keys that are all 1s
+                Generates False Positive
+
+                Otherwise, anything that's all zeros 
+
+                The chance of one of these occurring
+                    nItems ln false positive rate / # of bits per item
+                    Just at 1,000 items, Bloom Filter takes up 24 MB
+
+
+    Count-Min Sketch
+        How many times does x appear in dataset (Approximate due to Unique Words)?
+
+        3 Hash Functions
+            Each Maps to its own Row of counters
+
+        For each count, Incrememnt each row by + 1
+
+        These counters represent the number of times we've incrememnted the word "cats", but also overlapping words
+
+        This is an over-estimate, so we take the min. of the estimate
+
+        Great for really popular items
+
+
+Hyper Log Log Sketch
+T-Digest Sket
+
+Use when you have Large Data -> Small Summary
+Unbounded Stream -> Bounded Memory
+
+Embrace Randomness
+
+Randomized Algorithms and problemistic data structures that help engage in randomness

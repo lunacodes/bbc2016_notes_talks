@@ -1,0 +1,61 @@
+The Tale of the Cursed Operating Systems Textbook
+@kiranb
+
+Bhattaram
+
+Each Chapter I read marks a new bug in the systems I work on.  These problems are massive and inescapables
+
+I've been using Unix for most of my life.  But only developed a concept of Operating System inner-workings recently.
+
+I wanted to be Lex Murphy!
+
+I firmly believe that knowing these internals will make me a better programmer!  Abstracting things away
+
+Grimoire/Spellbook about Magic (Engineering!) ... some spells might cause harm, but that's ok cuz you learn
+
+Ch. 1 
+    Inside the Kernel
+    We were having intermittenet issues with our DNS killer.
+
+    Linux OOM killer is it kills memory when all else fails.  Kernel was using far too much memory, and so the OS was killing apps to compensate.
+
+    /proc
+    Presudoefile system about sys. info
+        System Utils are usually reading from files in this directory
+    /proc/slabtop
+    There was a bug:
+        Fork it -> Kill off previous -> But Garbage Collection wasn't happening
+        Graceful Reloads were causing the issue.  Full Reloads solved this.
+
+
+Ch. 2 
+    Netowrking
+    fiNAGLEing
+
+    Publishing messages to daemon on localhost, but it was taking 40ms per message.  This was insane!!
+
+    POST requests sent in 2 packets Headers + Body
+    NAGLES algorithm makes sure full packets get sent
+        This prevents wasting resources on multiple small packets by combining these
+        Linux by default waits 40 ms.
+    The server we were using had delayed ACKs on.
+
+    Passive Aggressive waiting on both sides :p
+
+
+Ch. 3 
+    Oints
+
+    We store some data in Mangos -> Take Snapshot -> Kill and restore for testing purposes
+
+    Got Cryptic MangoDB message -> The first element was oints ... meaning there was some Data corruption in the DB
+
+    Kernel write buffers flush out to disk asynchronously
+        We were doing the Fsync, but didn't lock the replica against more writes.
+        This meant the DB had half written data and Barged
+
+
+Ch. 4
+    Concurrency - I've been told not to read this.  Esp not while on the plane!!
+
+    Instead I read about Hard Drives, Bit Processing, Scheduling, etc!!

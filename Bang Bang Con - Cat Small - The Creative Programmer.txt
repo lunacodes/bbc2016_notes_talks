@@ -1,0 +1,112 @@
+Cat Small - The Creative Programmer
+
+Product Designer at Sound Cloud
+Co-Founder Brooklyn Gamery
+Co-founder Code Liberation
+Makes Various things
+
+Programming culture (compettitve), creativity and my path to code:
+    
+    Programming is inherently creative ... but very often we think about the how instead of the what+why
+
+    What are we gonna use vs. How will it work
+
+    When she worked out a website to display team game portfolio, the conversation quickly derailed from "What will it look like/do" vs. "How"
+        Think about WHAT/WHY first
+
+    Traditional Education: Teachers often teach via lecture instead of teaching through doing
+
+        I took a PHP class (only class I ever took).  Teacher lectured instead, and we never wrote any code.  I started coding on my own instead of paying attention and dropped out of class.
+
+        Most programming concepts are cross-language
+
+        "Often when a student leaves a school, they don't actually know how to build things/make something work" - this is highly concerning
+
+    People create these hierarchies about which languages are the best.  This is often self-defeating.  Often new programmers get advised based on more experienced programmers' language preferences, rather than what will actually be most useful to the newer programmer.
+
+    *But* what happens if someone decides to stop coding b/c the language they start with is so unfriendly??
+
+    Choice Paralysis occurs if you over-analyze the tools in a prescriptivist manner.  Focus on "Does the tool serve the project"
+
+
+    "Real Programmer" or Imposter Syndrome and constant competetive comparison to other programmers.  That constant comparison is disingenuous and unhelpful.   
+
+    Programming Culture is hurting people.  This can result in sickness, depression, injury, burnout, people quitting, etc.
+
+    Programming is such a wonderful feeling - seeing writing come to life is incredible, and the culture is very antagonistic to this.
+
+    Programming culture is very hostile, and we need more diversity.
+
+
+    My Story:
+        I love Coding b/c I love creating
+        Started Coding around 10
+        Used to draw Sonic the Hedgehog fan art
+        Parents threw tech. at me at a very young age.
+        I loved anime + pokemon + Sailor Moon
+        I spent a lot of time playing video games, and downloading emulators and such - Teach was Cool!!
+
+        I stumbled around Otaku World website
+            Kiss Dolls -> Got very absorbed in making them look cool
+            you could cownload .lzh files (archives of the dolls themselves) and follow tutorias to rip stuff apart and modify it
+
+            At first I copied others' designs.  Then I began making my own.
+            This was all through typing, and this would come to life -> This was so incredible
+
+            Also helped me to learn pixel art -> combo of art + code.  Integral to how I do things today
+
+            I noticed other people had hyperlinks next to their dolls.  I created my own website to showcase my dolls.  First time using HTML/CSS.
+
+            Eventually got Xanga, LiveJournal, etc & started re-skinning/messing with colors + fonts -> Really great form of self-expression as a teenager
+
+
+        I got into actually doing professional website designs.  
+            In HS & College, I kept working on personal projects and would upload them to geocities.
+
+            Then I knew enough to do it professionally.  
+                Got an internship, learned to debug.  
+                Second internship, I learned Javascript - that was a Huge Step!
+
+                Didn't have money for a class, but found a Javascript 101 book on the street and used the parts I could understand to teach myself.
+                
+                Scanned all those notes and digitized it in Illustrator.
+                    All the note taking and re-writing really reinforced what I needed to learn!
+
+                These helped me form a relationship with code as a paintbrush of sorts
+
+        Started working out Souncloud -> Prism Shell -> Al the Chemist
+
+        There's been so much merging of design + programming.  My wor title is designer, but it involves programming as well.
+
+        There is an artistic and creative side to programming.  Being obsessively tool-focused can be self-defeating
+
+
+        So many creative things you can do:
+            Twitter + Flickers API -> Generate inspirational Quote Images
+            Shopping App -> I made an app to work with my financial needs as a broke college students
+
+            Games -> Fun way to express yourself.  Makes you think about what people don't need!  "What can I do to make people feel confused and wacky?!"
+                My game includes visual interaction and talks about race + gender, etc. issues
+
+            My friend makes Clothing -> If you touch the flowers, it screams at you
+
+            Food -> Eat pieces of chocolate... starts moaning and then screaming.  Simulates the "Eats good + why did I eat chocolate??"
+
+            Twitter Bots, Robots, etc.
+
+            Javascript + Arduino work together now
+
+            Creating Programming Tools is a really important and special creative tool!
+
+
+        If you make something cool, don't get hung up on the fact that you "could have made it even cooler"
+
+        Don't let people pressure you into thinking you're not a real programmer.  
+
+        You're a real programmer because you write code.  You don't have to be *In Love* with it - it still counts!
+
+        Celebrate what you've actually created!  High five yourself, pat yourself on the back, etc.
+
+        You already are a real programmer
+
+        "Go out there and make cool stuff!!" 

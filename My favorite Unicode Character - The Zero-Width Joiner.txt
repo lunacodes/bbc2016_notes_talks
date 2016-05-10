@@ -1,0 +1,50 @@
+My favorite Unicode Character - The Zero-Width Joiner
+
+Zero-Width Joiner Unicod 200D
+
+
+Pre-Computers:
+    Typewriters - Type Char, hit backspace type 2nd char
+
+COmputers:
+    ASCII - Didn't have Zero Width Joiner
+        English Letters
+        Other languages just got written with out them
+
+    EBCDID
+        Had diff. numbers for diff. characters
+        Covered for Italian via printing
+            Didn't transfer between computers, due to lack of Universal Standard
+            iconv --list is the command for this conversion
+
+    Unicode Consortium:
+        1991 - UC is created
+            ***Unicode Quote Here***
+
+    Python 2:
+        Default String
+            Byte String - 20 Chars
+
+    Python 3:
+        Unicode
+            Emoji Length - 6 Chars
+
+    Java:
+        UTF-16
+        Women Emoji - Returns 8 chars (half of 16)
+            Uses Surrogate Chars
+            string.codePointCount() - checks unicode characters
+
+    Unicode Skin Color:
+        Fitzprack(??) Modified
+
+    Unicode-8 Is new Standard for small devices:
+        Some Mobile devices don't quite display this
+        Unicode has fallbacks in specific cases
+        Prevents breaking backwards compatability
+
+When writing code that takes User Input:
+    Consider your actual Space Needs
+
+
+Write Inclusively for Everyone in this world

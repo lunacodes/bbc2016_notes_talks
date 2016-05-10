@@ -1,0 +1,79 @@
+Values of Beta may give rise to dom!
+Mark Allen
+@bytemeorg
+
+
+Values of Beta may give rise to dom! -> One of the most obscure Error Messages ever found in an OS
+
+Game played on a GE635 -> Used for design of Multix
+Ken Thompson and Dennis Richie -> Created Unix in 1969
+    Multix was pulled out by Bell Labs
+KT -> Berkeley
+DR -> MIT
+worked w/ General Electric (who made computers in 1960s)
+Was going to be a Massive Concurrent User System (25 users) -> needed to scale up to phone switching network.
+    With transistors and multi-programming stuff, this seemed achievable.
+
+They needed to find a PDP-7 ... your TI graphic calculators were more powerful
+KT Liked it -> nobody was using it and it had a tube display
+
+Game: Space Travel
+    You could land on objects that had gravity
+    Written in Assembly (b/c 4k of memory)
+
+PDP-11 -> 256k of memory
+    $100,000 ($500,000 today)
+    GE had no interest in this cost
+
+    They used Runoff as a lever to get this money from management
+        Still exists as Groff in OS X today
+        You can use GROFF on any of the original Repo
+
+        Written for CTSS
+
+        Joe Asana -> photo typesetter.
+            Translated ROFF into Asana
+
+        Brian Kernigan rewrote it in C and added cool typesetting features
+
+        EQN -> pagackage for typesetting and calculations
+        Linda Cheery and BK collaborated together
+
+        "Use Unix as platform to typeset Patent Programs"
+
+
+    One day KT came into lab and there was all this weird stuff on the phototytpesetter
+    "Beeta instead of Beta"
+    They were working with the guy who put | into Linux
+    Voice Simulator that simulated War Games.
+        This phrase was funny
+        Ed-> line-editor great grandparents of vi/vim
+        Indicated Syntax Error with "!"
+        So translator mispronounced this
+
+        They put it in an the next version of the program!!
+
+
+Other favorite: "Move to move file that is itself wil output ????"
+
+Famous comment from Lyons Commentary: "You are not expected to understand this."
+    System 6 Kernel is a 40k kernel!
+
+    "The comment which begins here is not encouraging" -> Tells you to check out xswap to fix this
+
+
+The Ethos of Unix
+1.  Do 1 thing do it well
+2.  Tool composition
+3.  Text is a universal interace
+4.  Documentation
+
+Unix Man Pages have a list of bugs
+
+Aesthetics of Unix:
+1.  Simplicity
+2.  Elegance
+3.  Openness
+
+
+*Dennis Ritchie quote about philosophy of OSS*

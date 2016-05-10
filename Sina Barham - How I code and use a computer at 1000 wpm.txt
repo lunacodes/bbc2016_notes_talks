@@ -1,0 +1,68 @@
+Sina Barham - How I code and use a computer at 1,000 words per minute
+@SinaBarham
+
+Presenter is Blind
+"Doesn't matter if you can't read that - I can't see the screen :p"
+
+Thanks so much to MIRABI for being the best transcriber!!
+
+*Strange sound clip*
+Turns music on - this is how I use computers
+
+He can process hearing 1,900 minutes or so :o
+
+How a Screen Reader Works:
+    Pitch changes based on Character Case
+        Multi-Dimensional Information
+        Saves unnecessary things like "Capital S"
+
+    Cut control plus x unavailable
+        Unavailable is semantic
+
+    Semantic Elements:
+        Using link and styling like a button
+        It's not the native button element - you lose native Button Semantics
+        It's like holding up an image of a doorway and expecting people to be able to walk through it
+
+    I've got a headless interface to twitter 
+
+
+    Headings in Web Design:
+        Headings are STRUCTURAL
+            They're not for making things Bigger
+            They are for tab navigation
+
+        Wrap these things in <h> or <article> tags
+
+    Via tab Navigation can nagivate this
+        ***Using these <h> tags and coding logic, you can make this accessible to Blind People***
+
+    Ads suck especially if you're blind
+
+    Ars Technica - Good
+    Hacker News - Not Friendly
+    Reddit - Fairly Accessible
+
+    My experience of Software is mediated through Software
+        My Screen Reader
+        This is true of Search Engines, etc
+            Implement accessibility and you increase SEO, Page Rank, etc.
+
+    Include Full descriptions of Image in <alt> tags
+
+    W3C Accessibility Guidelines
+        Web Content Acessibility Guidelines (WCAG) 2.0
+            AMAZING ADVICE
+
+
+
+*Switched Audio Sources*
+    "If you can't see the screen, join the club"
+
+iPhone Accessibility
+    Built In:
+        Screen Reader
+        TTY
+        Even features for people who can't use their hads
+
+        I can use specific hand gestures to turn the screen curtain off and shut off the backlight, so I get way better battery life than you!!

@@ -1,0 +1,53 @@
+Kamal Marhubi - Storing your files in the Kernel is a really bad Idea
+
+
+Let's store lots of data in memory w/out using a lot of memory
+
+Store it in Kernel Memory (instead of User Memory)
+
+Important that User Code can't access Kernel Memory
+    Would create serious Security Issues
+    Enforced by Hardware called the Memory Management Unit (MMU)
+
+
+Kernel Buffer that we can read and write to anywhere
+Store the Data in Pipes
+
+Pipe - a Process where one process sends data to another
+    Writes data to Pipe and waits until next process runs to send it out
+
+Pipes have a Buffer, Write End, Read End
+
+Piping - A Kernel Buffer the user has Access to
+
+Pipes can only read and write at the ends
+    How do we get a Random Acess Buffer? (ie, pull stuff out from the middle)
+
+    We do this by reading things out only to the point we want
+    We could read everything out, find the parts we want, write that all back into the Pipe
+
+    Pipe Buffers are only so big though (kb)
+    We can combine Pipes 
+    Linux Max Pipe Size can be set to 1 MB
+    Per User Limit = 64 MB
+        In order to transcend this, you'd have to run as root
+
+
+You can *always* create a pipe
+    Pipe command will never fail -> it might just give you a really small type
+
+    A 64k Pipe has 32k of available space
+    132 MB maximum process size
+
+    Write Once Pipes
+        Essentially Garbage Collect the Write End after reading
+        64k Pipes
+        256 MB per process size limit
+
+
+
+Scale this enough and OOM Killer will kill your login session
+
+
+
+

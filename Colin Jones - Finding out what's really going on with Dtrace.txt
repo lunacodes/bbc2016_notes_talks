@@ -1,0 +1,89 @@
+Colin Jones - Finding out what's really going on with DTrace!
+@trptcolin
+
+I really like it when computers work exactly like I expect
+    Doesn't Help
+    So I at least want to know why
+    DTrace has been helping me
+
+    Some Programming Language
+        Let's you write programs to filter, aggregate/take other choices based on events
+
+        Not Turing Comlpete
+            No Loops
+                This makes sure it will definitely stop/break loop
+
+
+    This program looks like awk
+        traces two kinds of events
+
+        You can trace thigns that make sense for a given application like MySQL or JVM.
+
+        MySQL drvs wrote code that let me run DTrace!!
+
+        You can dynamically insert new instrumentation into Arbitrary C Functions
+            Trace how long the Kernel takes to run
+            Download Kernel Code
+            Frequency Distribution Computing
+                Orthogonical to what we're tracing, but interesting
+
+    Problem: Show Tests
+        These should be milliseconds - why are our tasks taking 30s
+
+        Test Suite taking way too long
+
+        Hypotheses
+            GC Pauses
+            Deadlocks
+            Connection Pool Timeouts
+            Sleep in the code that fires randomly
+
+            We need actual information to solve this though
+
+        Gather Data with DTrace to collect info to test hypotheses
+        Modify Hypotheses
+
+
+        Half the time JVM issues = Garbage Collection
+            Can trace and print these out
+        They were taking a while, but nowhere near the level that this was taking
+
+        Higher Level:
+            CPU 
+                Kernel_Task - running by far the most
+                    Pretty much all Idle
+                    Java program only shows up 3 times
+            Rules out any CPU stuff
+                GCE 
+                Tight Computational Loops
+                Too many Threads
+            Saves Time
+
+            Ruled out Memory and Disk Slowness as well
+
+            Networking
+                Calls to the Database
+                    Check Socket COnnections (Code for this is annoyingly complicated.  I couldn't write easily)
+                        Thankfully it's free online!
+                        Along with Socket COnnect Latency for everything
+
+                Seeing latencies on the order of 20-40ms - so not our culprit
+
+                But it's interesting we're connecting to an external host
+                    This isn't in our config or code
+                    Should only have been local connections
+
+                    DNS trace
+                        for some reason, was trying to connect to "someplace.com" url was taking 30s to resolve
+
+        Solutions:
+            Complain To ISP
+            Replace DNS
+
+            Actual Solution:
+                Don't make external calls in our test suite
+
+This isn't just a tool for performance issues
+    DTrace is a great way to learn about your Computer (Kernel Code for example)
+    Other OS's might have different, but similar tools
+

@@ -1,0 +1,184 @@
+ROb Jefferson - What Economists Can Learning From Programmers (And Vice Versa)
+
+Economists do a ton of programming
+    First Class
+    Dissertation Work
+    Current Research
+
+    Programs often have significant policy affect
+        Statistical models
+        Published in Papers
+        Political Decisions are made based on these
+
+    Tech and Economics Cultures have a lot of similarities
+
+I was at CMU for 2 years, studied CS for 2 years, dropped for reasons
+Then Worked
+Returned to CMU, returned to Grad School for economics
+Got my Masters, Started PhD in Case Wastern(?) - left for reasons
+
+Worked in Philly for "Solutions..."
+
+I stopped working on farm, wound up being software engineer b/c I could code Perl Poorly
+
+Now I'm a DevOp (DevOops) with Comcast
+
+What Economists can learn from programmers
+    Modern Econ is programming
+        Statistcal modeling is man route for empirical work
+        Computational Econs is popular
+            Simulation w/ AI
+        Availty of GPGPUs makes large-scale optimiaoptimization solvable
+        Algorithmic Game Theory - CS & Economics
+            Auctions, Load Balancing, Routing
+
+
+Grad School 
+    Coding get short shhrift
+    Too little time
+    Needs results
+    Code w/ no documentation
+    Programming, Data munching, debugging - if lucky, you get reasearch assistant
+    No time to learn FORTRAN or rewrite it in Python
+
+
+
+Quant-Econ Project
+    Open Source Julia and Python Libraryies
+    Awesome Support and docs so far
+
+Teaching 
+    Writing with Modules
+    Writing sustainiable code
+
+FRED
+    Free and paid data sets
+
+Algorithms
+    You don't need to be Algorithms expert of have your textbook from college
+    Asymptotic Behavior is good to know
+        Smaller than you expect
+        Larger than you Hope
+
+Econo-metrics
+    Some ideas of statistcal asymptotic behavior move over to algorithmic Asymptotic behavior
+
+Doing undergrad research
+    Doing things over and over
+    Nesting Loops 4-5 layers deep
+    Needed to take some steps back
+
+Don't do more than you have to
+    Precompute:
+        Memoization
+        Dynamic Programming
+
+Testing:
+    Results, but are they consistent
+    Controls - do you have them?
+    Complicated Model - are implications what you thought they'd be
+    Using Colleagues Libraries - They're floating point, your colleague doesn't understand IEEE 754
+
+
+Donohue and Levin Paper - Abortions and Crime Paper
+    Link btwn. abortions and declining crime rate
+    Code fort to include Control
+    Actual impact was about zero
+
+Marty Feldstein
+    Social Security Depresses Savings
+    In reality, it was Zero
+
+Paper - High Debt Levels decrease growth
+    Their were significant c/p errors that overstated the relationship
+
+
+
+Economists should learn to write test
+    Integration Tests
+    Regression Tests (Results don't change dramatically if you change small parts of code)
+    Use standard Libraries - they work, documentation
+    Use explicit Checklists for Controls
+    Use GitHub - Code Reviews, Version Control
+
+
+
+What progerammers can learn from Economists
+    Causation
+        What impact does x has on y
+        Build models for most frequent egressions
+        Core Assumption is that they are uncorrelated
+            When not endogeneity bias
+
+        When this bias is everywhere, unavoidable
+            Tech INstruments Hard to find
+            Can't really avoid this bias due to Policy and Structural Enforcement
+
+    Recently:
+        Code I was dealing with was correct, but it apparently violated policy rules
+            This took me a long time to figure out b/c I was focused on tech, but not policy.
+
+    In tech and economic models, it's importatnt to understand conts
+        History and CUlture
+
+        We often assume some sort of normal/consistency with Countries and Spending
+
+        We make all sorts of assumptions beyond interationalization and globalization
+            Assuming someone has both a frist and last name
+            Many of our assumptions getbroken
+
+    Specialization & Trade:
+        Generalists are Awesome, but lifes too short
+            Do you want to write your own Network Stack?  I don't
+
+        Generalists can benefit from Specializing
+            Specializing is useful based on Trade
+
+        Comparative advantage:
+            David Ricardo - people should do their specialties that they do best
+            Comparative A can write one model, B can write other model.  They should work on their cross-class skills
+
+            COmp. Knowledge shows what's possible, not necessarily what's best
+
+
+What groups can learn from each other
+    Community and cultural Similarities
+
+    XKCD - Econs want to be around Math ppl
+        Somewhere between Sociologists and Psychologists
+
+    Tech & Econ spend a lot of time on
+        Hardcore Programmers are hardcore/real
+        Web devens are not
+
+    Econ:
+        ***GET SLIDES HERE***
+
+
+
+    We need to criticall examine our field 
+        Econ re-evaluate privilege theory over what actually happens
+        Tech: privilegeing tools over people
+
+        Minorities are underrepresents
+            I was the only AA  in my grad dept.
+            Racism, Sexism, Homophobia, Transphobia Rampant
+
+        We can More Inclusive Events:
+            Race/Gender, etc.
+            Econ version of Bang Bang Con
+        Make it easdier to geti into tech and economic discours
+            Blogs and twitter helps
+
+        Be patient and listen
+            Refrain from approaching problem tools-first
+
+
+Talk dedicated to Tiago Pires
+    Classmates at Northwestern
+    Passed away 2 weeks ago
+    Bday was May 4th
+    May the 4th always be with him!
+
+
+

@@ -1,0 +1,19 @@
+Brendan Curran Johnson - A Shot In The Dark
+
+Reverse Engineering A Camera
+
+Got my first camera a while ago
+    I take more photos, but newer cameras, hopefully take better photos
+
+Scene Mode:
+    Presets for Various situations (sports, food, etc)
+    Live Composite:
+
+
+Camera has Open Source Remote API
+    Very Insecure
+    Private Spec is almost the exact same thing
+
+    One of the commands tells you command you can use with the camera (including the parameters for each command)
+
+    

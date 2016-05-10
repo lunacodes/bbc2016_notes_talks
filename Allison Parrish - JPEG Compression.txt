@@ -1,0 +1,18 @@
+Allison Parrish - JPEG Compression
+
+Discrete Cosine Transform
+
+Successively add together values of Wave Form
+
+
+Lower Ferquency Components usually carry more info than High Frequency
+As long as you're ok w/ being a little inaccurate (Lossy Compression) you can use this
+
+JPEG Compression
+    2D DCT - Can throw away most of the original Vector and still get a reasonable facimile of the image
+
+
+She's a poet, so converted to text:
+    How do you convert text to a Vector
+    "1st 3 verses of Genesis can be represeneted as the sum of these Cosine Values"
+

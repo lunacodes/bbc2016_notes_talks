@@ -1,0 +1,82 @@
+Wilkie - Preserving Digital Art and Games for 100 Years
+@Wilkieii
+
+
+SLides - Running in an Old Game
+    ANSI Art
+
+Game "Slides"
+
+Get paid for archiving research and code so that people can run it 10 yrs. later.
+
+This is actually hard to archive
+    Hard to evaluate it
+    Hard to convince people it's reliable
+    Scientists don't want to bother b/c they want to publish results quickly
+        Contrary to Art - Preserving Art is important
+
+When I come back home, I can't even compile code I've written before I left
+
+All code is some form of art/expression
+    Even writing scripts for job - there is individuality, and part of you.
+
+I use video games to show that this is really important
+
+I became a fan of interactive art as a kid, and I'd download it and have pictures in front of me
+    ZZT - game itself is pretty unspectacular
+        Play as this disembodied Head and make sure you don't die
+        Similar to Space Invaders, but some more mechanics
+
+        Is extremely popular
+
+
+How would we archive ZZT?
+    When we archive it, we have to preserve that interactivity.
+
+    Normal Archive Methods (very naive):
+        Virtualization Stacks
+        Emulators
+
+        Problems
+            What do we do when something new comes along and nobody cares about KVM (Platform that runs the VM) anymore
+            What if this image only works on a certain version of KVM/Computer
+
+        Is it enough just to archive the game?
+            If we just archive Scratch or ZZT, is that enough?
+
+            No - ZZT is not fun on its own.
+                The fun part is that people have used the level producer to produce thousands upon thousands of their own worlds
+                So we'd be missing the true potential of ZZT
+
+
+            Made a general Tool that can build VMs on the fly, based on the archived programs requirements
+
+                ZZT runs in DOS
+                    We don't make a VM for DOS.  We just leave a note for the future
+                    DOSBOX - Same deal
+
+                Can make a Virtual Machine Image or Docker Container
+                    Problem
+                        Docker could bite the dust
+                    Solution
+                        We'd have to adjust the back-end of the tool to rely on another platform then        
+
+                    Cool thing is you can create a specific ZZT archive
+                        Adventures of Link II (or "Adventures of COpyright Infringement")
+
+                    VM contains:
+                        ZZT World
+                        ZZT
+                        Runs in Browser
+                        VNC Javascript Client
+                        NEXT Server
+                        Window Manager
+                        DOSBOX
+
+                    Maybe 100 years from now, you'll be able to run these games, or my slides, etc.
+
+
+When you're building systems - creation tools, art tools, mods
+    Think about how you're hurting, hindering or helping people who make archive tools, so we can archive this stuff
+
+If anyone has any funding that isn't DoD and wants to help fund this, that would be appreciated!!

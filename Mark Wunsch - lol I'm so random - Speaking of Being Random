@@ -1,0 +1,126 @@
+Mark Wunsch - lol I'm so random - Speaking of Being Random!
+@markwunsch
+
+I'm 4th and Final Mark
+*tech issues* -> Random stuff can happen
+
+
+Randomness in Computing
+    There's lots of it
+
+Explained a lot:
+    Javascript & Java are not same thing
+    Math.random() produces random number in both
+        Where does that number come from?
+        Why is it this number
+
+    **XKCD comic**
+
+
+Random in Computers:
+    COmputers = Binary
+    Essentially a Head Flip
+        How do we teach computer to flip a coin
+            Nevermind - that's tedious
+
+    Prior to COmputers:
+        Book - "A Million Random Digits"
+        Scientists would pick Random Numbers out of this book for Simulations
+            You could re-use those same variations to reproduce those simulation results
+
+
+    John Von Neuman
+        No such thing as random numbers
+        Computers can't generate random numbers
+            Procedural Results can repeat
+            Pseudo-Randomness: Computers generate numbers that appear Random
+
+            Dice, etc:
+                Physics are in play
+                A Computer can't accurately reproduce
+
+            Generators with seed produce results
+                Running a generator with the same seeds produce the same results
+
+            Mathematica:
+                You can see what happens with the seed
+                We get the approximation of noise
+
+            Closure:
+                Random()
+                    Callsback to Math.Random() in Java
+                        public static double random
+
+            Mary Rose Cook: Fucntional Code is characterized by the absence of side effects
+                Closure's approach creates a HUGE side effect
+
+            Haskell
+                Random(): takes a generator g
+                    Returns a pair of random type a and another generator
+                        Returns a random number and numeric representation of a generator
+                    If we call this again, we get the same number
+                        If we call with new generator, we get different result
+                    State Machine
+
+            Property-Check Testing in QuickCheck and Purely Random
+                ***Interest Talk Links***
+
+            PRNG Algorithms
+                Mersenne Twister:
+                    Mathemetician 
+                    Twisted Linear Feedback Register
+                    Mersenn Prime.
+                        Prime number one less than a power of two
+                        Period of PRNG
+                            How long a sequence can repeat prior to repeating results
+                            Memory Footpring
+                            Quality Results and Time
+
+                    This is what Python, Ruby and Julia are based off of.
+
+                Choice of PRNG matter in subtle ways
+                    ***Slide with Visualizations***
+
+                    V8 - Javascript Engine of Chrome and Node
+                        Last year they discovered that their PRNG wasn't that great, and improved it
+
+            1995:
+                Generated Pseudo-random testing
+                    CD-ROM
+
+                Modern Tests:
+                    DieHarder
+                    TestU01
+
+            "The Mersenne Twister is not cryptographically Secure"
+                Python Docs(?) & Mersenne Home Page
+
+
+        Cryptographic Security:
+            Creates nonses for keys
+            You need these number to be hard to pick
+            PRNG is often used
+            There are algorithms for this
+                Cryptographically Secure PRNGS (CSPRNG)
+
+            CSPRNG Algs:
+                Yaro(???)
+                Mac uses this
+
+            Utilizes Entropy Pool
+                Access Generator via Entropy Device
+                    Time btwn. keystrokes, noise, turbulence in disk drive
+                    Gen. gets smidgeon of real randomness from Hardware
+                    Writes events from Entry and seeds Generator
+                    Can Read by writing dev/random
+                    Write by Writing to file
+
+
+        ***Shows 6-Die in Bash/awk***
+
+        Google Compose Music From Entropy
+
+        BASIC - Generates pattern for Commodore 64
+            Book ***Lost Title***
+
+    

@@ -1,0 +1,8 @@
+Samy Al Bahra - Debugging Debuggers!!
+
+
+Internals of Symbolic Debuggers
+
+ex: program which counts number of "w" chars (really terribly)
+
+%rip

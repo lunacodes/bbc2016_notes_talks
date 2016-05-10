@@ -1,0 +1,48 @@
+Sher Minn Chong - Plants Are Recursive
+
+From Malaysia - flew from halfway around the world
+Spent time at Recurse Center last year
+
+Plants and Recursion
+
+Recursion
+    Replication in a self-similar way
+    Koch-Snowflake
+    Taking edge and replace it with another version of that curve
+
+Recursion In Nature
+    Fractals
+        Each point looks like a tiny version of itself
+        Each branch of a Fern Leaf
+        Freckled Broccoli
+
+
+Aristid Lindenmayer - Biologist who noticed this recursion
+
+
+L-Systems
+    String Rewriting System
+    Axiom 
+    Rules: 
+    A
+    A -> Ab
+    B -> A
+
+
+L-Systems are great for Recursive Patterns
+
+You can use this visually
+    String-> Drawing
+
+    F - draw a line
+    + Rotate Clockwise by Angle
+    - Rotate Counter-Clockwise by andle
+
+
+
+Applications for Game Dev where we need Complex Patterns but don't necessarily want to write a ton of code
+
+
+*She listed sources for learning*
+Algorithimic Beauty of Plants
+Modelling 

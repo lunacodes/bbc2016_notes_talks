@@ -1,0 +1,49 @@
+Ping! are you there?!
+Lydia Gu
+
+Software Engineer at B12 -> Scaling Creative Work
+
+When feeling lonely, I ping google.com & feel great when I see how fast my internet connection is
+
+History of Ping:
+    The Story of the PING Program - Mike Muss (Creator)    
+
+
+Brief overview of Networking:
+    We use abstraction to handle complexity and data loss
+    Each layer has a specific function and doesn't worry about the rest of the functions/protocols
+
+    Transport - Retransmission, Congestion Control (TCP) - "What if your Pidgeon gets shot down?"
+    Network - Routing (IP) - Where should you send it
+    Data Link - Physical Connections (like Carrier Pigeons)
+
+
+Operating Systems provide interfaces to these layers
+    Socket -> Transport 
+    Raw Socket -> Network (Ping uses this)
+    Network Link -> Not great for Ping b/c there might not be a direct physical connection
+
+
+PING:
+    ICMP echo request
+        Messaging protocol -> diagnostic and debugging btwn. computers
+            Identify (Process ID)
+            Sequence ID (Message Number)
+            Data Field (Current Time Stamp)
+
+            These are incorporated into server transmissions
+
+            This is what PING displays
+
+
+    Security Problems:
+        Smurf Attack:
+            DDoS (many computers used to overwhelm normal computer w/ Network Traffic)
+
+            Takes Victim IP as Source
+            Puts Network Broadcast Address as Destination
+                All the computers re-echo that info back to the victim
+
+                Creates never-ending feedback loop of Echo Requests :o
+
+        

@@ -1,0 +1,84 @@
+Anjana Vakil- They're functional - They're efficient -  They're persistent data structurs
+@anjanavakil
+
+Found out about persistent Data Structures at Recurse Center!
+
+Functional Programming rocks!
+    Doesn't have side effects (changing things outside of the particular computation or particular function)
+    This means Immutability
+
+    Immutability:
+        Rocks
+        *Drawing of Boulder in Central Park and people sitting*
+
+        Nobody sits like this rock sits
+        You rock rock
+        Nobody Sits, and is
+        You show us how to just sit here, and that's what we need
+            -I <3 Huckabees
+
+    Mutability creates headaches
+        This create problems with consistency, overhead and bugs - especially with multiple devs
+
+    Immutability:
+        Is the rock - sits and is forever
+
+        I could make an object similar to foo, called woo
+            Looks almost exactly like foo, but slightly different
+            This is inefficient - lots of unnecessary copying and taking up space in arrays.  Not scalable
+
+    Persistent Data Structures:
+        Old versions never change - just sit and are, like rocks
+
+        Instead of prayers to Gods of Time and Space COmplexity,
+            Re-use parts of original data structure
+
+            Instead of an Array, use a linked list
+                Just create a new Node (Link) to the original data
+                But this still runs into a scalability issue
+                We'd still have to copy everything before it
+
+    Trees:
+        Tries (A specific type of Try ... I just well actually'd myself)
+
+        Leaf Nodes contain Values
+            Add Intermediate Nodes
+            Have some Root Node
+
+        Structural Sharing
+            To make Change, I can change one of the bottom nodes and then copy over the path
+                This happens on the relevant structural level, so we get new roots at different depths
+
+            Better than Linked List example - less unnecessary copying
+            There are even more optimizations possible for Trees and Structural Sharing
+
+
+    I tried to implement Structural Sharing in Javascript:
+        Useful Libraries
+            Mori
+                ClojureScript port
+                Functional API
+                Fast
+            Immutable.js
+                by Facebook
+                Not truly functional
+                JS through & through
+                Public Methods
+                Smaller
+
+        There are libraries in other languages:
+            PyStems
+
+        Functional Languages:
+            Clojure, etc
+
+        Phil Bagwell & Jean Niklas L'orange
+        Design based on Vectors and has ...
+
+
+Huge thanks to RC alums
+Sal Becker (F2'15)
+
+
+
+

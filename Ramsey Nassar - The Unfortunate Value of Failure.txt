@@ -1,0 +1,225 @@
+Ramsey Nasser - The Unfortunate Value of Failure
+@ra
+Lebanese - grandma no interest inpost-1961 foreign world
+
+
+
+I wrote code b/c of Levitating happy feeling
+But the reality of coding is usually a mess
+
+Failing feels bad and people don't usually share their failures publicly - b/c it feels bad
+
+To feel is to emotionally experience something.  
+It's also Arabic for Elephant :p
+
+(will put animated gif of baby elephant on screen if things get heavy!!)
+
+
+What is Failure? 
+    Let's rebrand it
+
+    We look at it in a binary of right vs. wrong
+
+    Reality:
+        Do something.  Had Expectations, but something else happened
+
+        Some subset of your expectations are your "goals"
+        Binary = "Anything in the grey area means you failed"
+        This is actually false
+
+        In many cases, I'd "fail" but end up with something completely off goal, but much better than what I set out to do
+
+        Possibility of Failure = Possibility of Surprise
+            They are unseparably linked
+
+        Failure: An undesirable result different from the intended one
+            ex: Throwing a bunch of exceptions may be your goal (Art piece of the failure collapse of the JVM)
+
+        I love Bob Ross - what would his perspective on programming have been?
+
+        Failure is always useful:
+            It's always information
+            It's never a waste of time
+            It tells you something didn't work, and there's value in that!
+
+        Failure feels bad/awful
+            This has more to do with external failures related to/associated with failure
+
+        Every set of Error Messagfes (in console):
+            Red Text on Black Background
+                It's awful
+
+        Let's meditate on these pixels: Some human chose these symbols to represent an error.
+            Modeled on STOP sign - "Stop Programming, you're doing this wrong!"
+            There's nothing semantic about this icon.
+                The VM doesn't depend on this to run - it's a design choice of humans
+
+        Meaningless messages + Negative Memory
+
+        For me this experience is like:
+            *some garbled statement with a Hobgoblin*
+
+        Then we turn to the internet for help.
+            (I limited this to Stack Overflow - which is helpful about about filtering out "Tech Bro" speak) [ehhh, I disagree]
+
+            Some phrases that come up:
+                "Your indentation is terrible"
+                "Stop doing that!"
+                Notice Format is:
+                    1 sentence, Negative, Provide no framework for going forward or context as to why
+
+                Alarmingly this person's answers all follow this pattern has tons of points and is often the chosen answer
+
+                I do a lot of teaching... this is Awful Teaching ... This is what kills newer people programming and causes them to stop
+
+                Avert Agression or Subtle Microagression contribute to people feeling awful about programming, and it makes it feel very had to [be able to] fail [or experience failing]
+
+
+        Elm:
+            Goes out of its way to present itself and be palatable to new users
+            Their documentation is great and friendly to beginners
+            Elm is statically typed.
+
+            Elm states the Error, but *also* gives advice on:
+                Where Error Was
+                What you should change it to
+                WHY you should change it
+
+                The rationalization of the error and change is in the language itself 
+                [ALL LANGUAGES SHOULD BE LIKE THIS]
+
+            When you're learning, this is exactly what you need!!
+                It tells you why the machine is unable to continue
+                It tells you what you need to grow
+
+        I've been doing compiler stuff for a while
+            Error == "The machine needs more info to continue"
+                Condition where continuing execution makes no sense
+                It needs clarification or additional info
+                Much different than saying "This human failed and should be punished for it"
+
+        Avoiding Failing is impossible
+            There is a finite amount of things that we can fit in our brains at all time
+            This is immediately dwarfed by any non-trivial program
+            The number of states that a program can be in exceeds what any human can keep in their head
+            We only interact with a distant and predictable portion of it
+
+        Integer could be 32,000[?] possible different combinations to the computer
+            The complexities of what goes on into execution of software (time of day, temperature, etc. are unknown)
+            It's this explosion of complexity
+
+        Programming will always be difficult
+            It's a problem of managing complexity & always will be
+
+        When you're doing something new or learning, there's a very high chance of failure
+
+        Programming = Always learning, always doing something new
+            That new-ness (you never know what you're doing) is the reason programming is prone to failure
+
+        *Scene from Amadeus* (Fictionalized account of Mozart's Life)
+            Rival Salieri
+                He's looking at Manuscripts and hearing music in his head
+                He also notices that the music is perfectly written in its first pass.  It has no error marks, corrections, etc
+
+                "It's as if he was writing down music that was already in his head.  It's as if he was taking dictation"
+
+            This stayed with me
+                I was always waiting for the moment where I'd just write perfect code
+                My teachers would come in with perfect code
+                    I'd go write code & it would fail constantly
+                    I couldn't understand this disparity
+
+            People fail like terrible programmers b/c their shit is always failing
+
+        Alan Kay - "If you don't fail 90% of the time..." [find full quote]
+
+
+    Bob Ross
+        Fascinates me b/c his approach is so positive, warm and welcoming
+        He produced perfect painting on TV in 30 minutes
+
+        I'd love to be able to do this with programming 
+
+        Wehn I discuss this with someone else, they pointed out that he kinda always painted the same thing
+
+        There's a spectrum between experimenting and doing something familiar.  There's no right place to be in that spectrum.
+
+    I have the same anxiety that I had as a teenager
+        I don't feel like I'm a good programmer, even though objectively I've improved massively since then.
+
+        I don't think that my perception of my skill as a programmer is tied to my skill at all
+            It's tied to the difficulty of what I'm trying to accomplish
+            The diff btwn. what you're trying to do and what you're able to do is how you fell
+
+        As I got better as a programmer, I did harder and harder things
+            My ambitions and excitements grew with my skill
+                I'm running this presentation off of Slide Software that I built, and I'm terrified it's gonna explode
+
+        Failure doesn't need to be avoided
+            Failure = Pushing Yourself
+            Failure = Learning and growing
+            Failure = Explosion - "You haven't given up"
+                You're exploring, and their may be things you don't want
+                but there's a brave commitment there
+            
+            Failure != you did something wrong
+                You did something right!
+
+
+        there's a skill in extracting information from Error Messages
+            Because of presentation, a lot of students don't even read them
+                Even in better systems, people often don't read it
+
+        Trick: Programming Backwards
+            Write a Game Loop
+            getInput funcation
+            UpdatePlayer()
+            UpdateEnemies()
+
+            Programming tells you those functions don't exist
+                You write those functions with other filler functions
+                Computer essentially tells you where to go/what you do next
+
+        When I do freelance work, I turn into a conservative engineer
+            I lean on logic and semantics that work
+        When I do my own stuff, I'm very exploratory and failure-inclined
+
+
+    One of my Recent Failures:
+        I built a game called No Quarter
+            I leaned heavily on expiremental controllers and features
+            It failed
+
+        I learned so much about the game I was building, and the designs and tools
+            I wish that hadn't failed as publicly as it did
+            It leaned too heavily on exploration and not enough on predictability
+            I wish it hadn't.  Looking back, I'd change that
+
+    Failing is Important, but it's made so hard by external factors:
+        How do we make it easier "to explore"
+
+        Tools need better error messages
+            Once an error happens there's almost no information.
+                It's been optimized out
+                There's ways to get it in there, but it's challenging
+
+            Elm accounted for this
+
+        We need spaces where we can fail
+            Spaces like Bang Bang Con where it's ok to fail and talk about failure and experimentation
+
+        We need less ["Macho Programming"]
+
+    If you teach code, I strongly encourage you to fail in front of your students
+        So they're not waiting for that Amadeus moment
+
+    I mean this for all forms of "Teacher - Student"
+        Twitter - Tweet about your failures
+
+    As a teacher, I plan out and confirm the outline of my code, but I don't prewrite code
+        I write it in front of the students
+
+    In larger programming feature, failure is a privilege
+        As a Male, I have this privilege
+        Women or [other minorities] will be shot down and attacked much more quickly
+        Safe environments like Bang Bang Con are essential to change this!!

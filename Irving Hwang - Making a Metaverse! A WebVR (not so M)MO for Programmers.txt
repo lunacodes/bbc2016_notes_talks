@@ -1,0 +1,72 @@
+Irving Hwang - Making a Metaverse! A WebVR (not so M)MO for Programmers
+@irvinhwang
+www.construct.club
+
+Used to go to game stores a lot as 12 yr old
+    Had my first experience with VR
+        Wasn't that impressed
+        Even when Occulus Kickstarte came out, I didn't feel that excited
+
+    Saw Riffsketch on Kickstarter
+        Something Clicked and I felt Futuristic
+        I couldn't pinpoint what it was that felt so compelling
+            It's this highly potential, Rich medium for creativity and exploration
+            World where you can create objects out of air and breath life into them
+            Becoming the Wizard on the cover of SICP - that seems a lot more real
+
+
+    Construct Club
+        Virtual Reality 3D graphics program I created
+            I didn't know much about that stuff, and I'm still a novice
+
+        Meteor.js
+            Library for doing 3d Graphics in Browser in Javascript
+
+        three.js
+            ...
+
+        Some other library
+
+        **Live Demo**
+            2 accounts connected to same site
+            Each window's changes affect the world (and thus, other Windows)
+
+            Objects in world = Programs
+            Programs = Data
+                Each object is controlled by a different program (Entries stored in a Database)
+                Program = String of text.  Initialization and Update Functions
+                    Name
+
+            Javascript eval
+                Awesome, but dangerous
+                Change initialization functions with this
+
+            Rendering Loop
+                Responsible for drawing each of these images
+                Calls each program's update loop
+
+
+I want to use this for programming education
+    Went to talk recently by John Iwada
+        Marketing Lead
+"Greatest Industry of Future will be Education.  2nd will be Entertainment.  I think the two should be put together"
+
+This would be great for classroom dynamics
+    Level of community and Intimacy in Classrooms added, that we don't currently have
+
+What kind of changes does this make to other things we have online
+    How does this influence APIs and applications?
+        Weather
+        Email
+        Facebook
+        Soundcould
+        Google Chrome
+
+Philip Rose Dale
+    Creator of 2nd Life
+        VR right now is where the internet was in the early 90s.  We have no idea what will come from it
+
+If you create a platform and give people the room to create, awesome things will come of it
+
+
+
